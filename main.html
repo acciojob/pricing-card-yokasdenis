@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      #card {
+        background-color: gray;
+        width: 400px;
+        box-shadow: 2px 2px 3px gainsboro;
+        text-align: center;
+		  padding:20px;
+      }
+      button{
+        padding: 10px;
+        background-color: brown;
+        color: white;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <body>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
+    <div id="card">
+      <div id="image">
+        <img
+          width="250px"
+          src="https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg"
+          alt=""
+        />
+      </div>
+      <h1>Pricing Card</h1>
+      <p>
+        Description: Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Excepturi aliquam earum vero ratione nobis esse!
+      </p>
+      <button>Buy Now</button>
+    </div>
+  </body>
 </html>
